@@ -1,5 +1,5 @@
 var input = document.getElementById('input'),
-  pattern = /[^x0-9-+=×÷/^*]/,
+  pattern = /[^x0-9-+=×÷/^*()]/,
   number = document.querySelectorAll('.numbers div'), // number buttons
   operator = document.querySelectorAll('.operators div'), // operator buttons
   result = document.getElementById('result'), // equal button
