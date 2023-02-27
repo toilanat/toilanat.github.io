@@ -1,5 +1,5 @@
-var input = document.getElementById('input'),
-  pattern = /[^x0-9-+=×÷/^*()]/,
+var input = document.getElementsById('input'),
+  pattern = /[^x0-9-+=×÷/^*()sqrt]/,
   number = document.querySelectorAll('.numbers div'), // number buttons
   operator = document.querySelectorAll('.operators div'), // operator buttons
   result = document.getElementById('result'), // equal button
@@ -73,7 +73,7 @@ result.addEventListener("click", function() {
   input.value = input.value.replace("×", "*")
   input.value = input.value.replace("÷", "/")
 
-  if(isEquation == true) input.value = "x=" + nerdamer.solveEquations(input.value).join(", x=")
+  if(isEquation == true) input.value = "x=" + nerdamer.solveEquations(input.value).join(", x=").replace("sqrt(","√(")
   else input.value = nerdamer(input.value)
 
   resultDisplayed = true; // turning flag if result is displayed
