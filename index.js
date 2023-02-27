@@ -72,9 +72,10 @@ result.addEventListener("click", function() {
 
   input.value = input.value.replace("×", "*")
   input.value = input.value.replace("÷", "/")
+  input.value = input.value.replace("√(","sqrt(")
 
   if(isEquation == true) input.value = "x=" + nerdamer.solveEquations(input.value).join(", x=").replace("sqrt(","√(")
-  else input.value = nerdamer(input.value)
+  else input.value = nerdamer(input.value).replace("sqrt(","√(")
 
   resultDisplayed = true; // turning flag if result is displayed
 });
