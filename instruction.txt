@@ -1,0 +1,21 @@
+Cách nhập dữ liệu:
+- C1: Sử dụng phần phím xuất hiện trên trang web
+- C2: Nhấn vào phần hiển thị kết quả và nhập trực tiếp dữ liệu từ bàn phím.
+
+Cuối cùng là ấn nút = trên trang web để hiển thị kết quả
+
+Một số lưu ý:
+- * = × : dấu nhân
+- / = ÷ : dấu chia
+- ^x : thêm mũ x
+- sqrt() = √() : dấu căn (nhớ chỉ đóng mở ngoặc phần cần căn)
+
+Tính năng khác:
+- Có thể rút gọn đẳng thức hoặc giải phương trình một ẩn "x"
+
+Cách tạo đẳng thức hoặc phương trình:
+- Tạo đẳng thức bằng cách thêm ẩn "x" vào phép tính: x+x => 2*x
+- Tạo phương trình tương tự như đẳng thức nhưng thêm dấu = và kết quả: x+1=2 => x=1
+- VD phương trình bậc 2: x^2+x-1=0 => x=(1/2)*sqrt(5)-1/2, x=(-1/2)*sqrt(5)-1/2
+
+Đây là sản phẩm đầu tay của em và làm trong thời gian rất ngắn nên mong mọi người thông cảm!
