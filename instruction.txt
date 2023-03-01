@@ -19,3 +19,4 @@ Cách tạo đẳng thức hoặc phương trình:
 - VD phương trình bậc 2: x^2+x-1=0 => x=(1/2)*sqrt(5)-1/2, x=(-1/2)*sqrt(5)-1/2
 
 Đây là sản phẩm đầu tay của em và làm trong thời gian rất ngắn nên mong mọi người thông cảm!
+Link sản phẩm: https://toilanat.github.io/
